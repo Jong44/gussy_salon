@@ -1,0 +1,32 @@
+{
+  "name": "gussy_salon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:css": "postcss ./static/css/main.css -o ./static/css/main-prefixed.css"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.1.0",
+    "@supabase/ui": "^0.36.5",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "autoprefixer": "9",
+    "easymde": "^2.18.0",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "postcss": "7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-simplemde-editor": "^5.2.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "4.9.3",
+    "uuid": "^9.0.0"
+  }
+}
